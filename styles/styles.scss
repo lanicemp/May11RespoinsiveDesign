@@ -57,6 +57,18 @@ main {
 
 .article-list {
     background-color: #fdfdfd;
+
+    @include tablet {
+        flex-grow: 1;
+    }
+
+    @include desktop {
+        display: flex;
+        flex-wrap: wrap;
+        align-content: flex-start;
+    }
+
+
 }
 
 .article {
