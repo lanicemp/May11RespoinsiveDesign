@@ -53,6 +53,10 @@ body {
 main {
     border-top: 5px solid #999999;
     border-bottom: 5px solid #999999;
+
+    @include tablet {
+        display: flex;
+    }
 }
 
 .article-list {
